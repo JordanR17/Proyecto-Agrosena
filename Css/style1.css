@@ -1,0 +1,199 @@
+body {
+    background-image: linear-gradient(rgba(134, 82, 15, 0.651), rgba(138, 73, 19, 0.664)),
+                  url("./cultivos-sanos-agricultura-sostenible-2.jpg");
+}
+
+/*Carousel overlay*/
+.carousel-inner img {
+    max-height: 30rem;
+    object-fit: cover;
+    min-height: 30rem;
+}
+.carousel-container{
+    position: relative;
+}
+.carousel-overlay{
+    position:absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+/*Textos Parrafos y titulos del overlay*/
+.textParrafo {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 1500;
+    font-style: normal;
+    font-size: 25px;
+}
+
+.textTitulo {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+
+.text2Parrafo {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+.text2Titulo {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+
+.overText2{
+    position:absolute;
+    top: 0;
+    left: 0;
+    width:  100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+#description {
+    margin: 10px;
+    background-image: linear-gradient(rgba(56, 151, 18, 0.829), rgba(35, 148, 13, 0)), url("./fondo\ description.jpg");
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: normal;
+    font-size: 15px;
+    border-radius: 15px;
+    
+}
+
+nav{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  font-size: 20px;
+  color: white;
+}
+
+/* Media Quest*/
+@media(max-width:768px){
+    #description{
+        width: 90% !important;
+    }
+}    
+
+/* Imagenes y texto del container cards*/
+* {
+    box-sizing: border-box;
+  }
+  
+
+  
+  .card {
+    --blur: 16px;
+    --size: clamp(300px, 50vmin, 600px);
+    width: var(--size);
+    aspect-ratio: 4 / 3;
+    position: relative;
+    border-radius: 2rem;
+    overflow: hidden;
+    color: #000;
+    transform: translateZ(0);
+  }
+  
+  .card__img {
+    width: 130%;
+    height: 130%;
+    object-fit: cover;
+    transform: scale(calc(1 + (var(--hover, 0) * 0.25))) rotate(calc(var(--hover, 0) * -5deg));
+    transition: transform 0.2s;
+  }
+  
+  .card__footer {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    padding: 0 1.5rem;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background: red;
+    display: grid;
+   
+    gap: 0.5ch;
+    background: hsla(0, 5%, 12%, 0.5);
+    backdrop-filter: blur(var(--blur));
+    height: 30%;
+    align-content: center;
+    color: #ffffff;
+  }
+  #cartas{
+    font-size: 25px;
+  }
+
+  .card__footer2 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    padding: 0 1.5rem;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background: red;
+    display: grid;
+   
+    gap: 0.5ch;
+    background: hsla(0, 5%, 12%, 0.5);
+    backdrop-filter: blur(var(--blur));
+    height: 30%;
+    align-content: center;
+    color: #ffffff;
+  }
+  
+  .card__action {
+    position: absolute;
+    aspect-ratio: 1;
+    width: calc(var(--size) * 0.15);
+    bottom: 30%;
+    right: 1.5rem;  
+    transform: translateY(50%)
+      translateY(
+        calc(
+          (var(--size) * 0.4)
+        )
+      )
+      translateY(calc(var(--hover, 0) * (var(--size) * -0.4)));
+    background: purple;
+    display: grid;
+    place-items: center;
+    border-radius: 0.5rem;
+    background: hsla(0, 6%, 31%, 0.5);
+  /*   backdrop-filter: blur(calc(var(--blur) * 0.5)); */
+    transition: transform 0.2s;
+  }
+  
+  .card__action svg {
+    aspect-ratio: 1;
+    width: 50%;
+  }
+  
+  .card__footer span:nth-of-type(1) {
+    font-size: calc(var(--size) * 0.065);
+  }
+  
+  .card__footer span:nth-of-type(2) {
+    font-size: calc(var(--size) * 0.035);
+  }
+  
+  .card:is(:hover, :focus-visible) {
+    --hover: 1;
+  }
+/* iMG FOOTER */
+#imgf{
+    width: 20%;
+    height: 20%;
+    object-fit: contain;
+}
+
+

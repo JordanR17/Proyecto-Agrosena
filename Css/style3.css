@@ -1,0 +1,105 @@
+body {
+    background-image: linear-gradient(rgba(119, 60, 11, 0.616), rgba(119, 60, 11, 0.678)),
+                  url("./cultivos-sanos-agricultura-sostenible-2.jpg");
+
+
+}
+
+
+nav{
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+font-optical-sizing: auto;
+font-weight: weight;
+font-style: normal;
+font-size: 20px;
+color: white;
+}
+
+
+
+/* iMG FOOTER */
+#imgf{
+    width: 20%;
+    height: 20%;
+    object-fit: contain;
+}
+
+/*Formulario*/
+form {
+  background-color: #b171108e;
+  padding: 50px 55px;
+  box-shadow: 0 0 20px rgba(65, 43, 3, 0.856);
+  border-radius: 20px;
+  text-align: center;
+  width: 440px;
+  margin-bottom: 150px;
+  margin-left: 450px;
+  margin-top: 150px;
+}
+
+.input-group {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+
+h2 {
+  color: rgba(0, 0, 0, 0.89);
+  font-size: 15px;
+  font-weight: 600;
+}
+label{
+  color: rgb(0, 0, 0);
+  font-size: 15px;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+
+input, textarea {
+  padding: 17px 25px;
+  border-radius: 25px;
+  margin-bottom: 20px;
+  background-color: rgba(201, 197, 184, 0.877);
+  border: 2px solid #139220;
+  color: #000000c9;
+  outline: none;
+}
+
+input::placeholder, textarea::placeholder {
+  color: #11bb19;
+}
+
+.form-txt {
+  margin-bottom: 30px;
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
+
+.form-txt a {
+  color: #000000;
+  font-size: 14px;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.btn {
+  font-size: 16px;
+  color: #ffffff;
+  border: 0;
+  border-radius: 25px;
+  background-color: #51d94c;
+  box-shadow: 0 0 20px rgba(25, 254, 0, 0.4);
+  cursor: pointer;
+}
+
+
+.btn:hover {
+  background-color: #50e048;
+
+}
+
+a {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: #d8d521;
+}
